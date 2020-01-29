@@ -125,6 +125,7 @@ namespace GitHub学習用
         {
             try
             {
+                //システム終了
                 Application.Exit();
             }
             catch (Exception ex)
