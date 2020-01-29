@@ -84,7 +84,7 @@
             // txtEnzan1
             // 
             this.txtEnzan1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.txtEnzan1.Location = new System.Drawing.Point(219, 65);
+            this.txtEnzan1.Location = new System.Drawing.Point(240, 65);
             this.txtEnzan1.Name = "txtEnzan1";
             this.txtEnzan1.ReadOnly = true;
             this.txtEnzan1.Size = new System.Drawing.Size(60, 23);
