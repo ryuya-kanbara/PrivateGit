@@ -19,6 +19,7 @@ namespace GitHub学習用
         /// <param name="e"></param>
         private void btnEnzan_Click(object sender, EventArgs e)
         {
+            //変数宣言
             double Value1 = 0;
             double Value2 = 0;
 
