@@ -12,6 +12,9 @@ namespace GitTest
             InitializeComponent();
         }
 
+        //2020/01/30 Ryuya.Kambara
+        //システム終了ボタン処理を追加
+
         /// <summary>
         /// システム終了ボタン処理
         /// </summary>
@@ -20,7 +23,7 @@ namespace GitTest
         private void btnEnd_Click(object sender, EventArgs e)
         {
             try
-            {
+            {            
                 //システム終了
                 Application.Exit();
             }
