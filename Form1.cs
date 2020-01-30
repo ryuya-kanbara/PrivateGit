@@ -12,6 +12,11 @@ namespace GitTest
             InitializeComponent();
         }
 
+        /// <summary>
+        /// システム終了ボタン処理
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnEnd_Click(object sender, EventArgs e)
         {
             try
