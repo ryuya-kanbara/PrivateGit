@@ -33,6 +33,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System-ds_CommonControlCS">
+      <HintPath>..\OneDrive - system-ds.co.jp\KAIHATSU\Common\ctl\System-ds_CommonControlCS.dll</HintPath>
+    </Reference>
+    <Reference Include="System-ds_CommonLibraryCS">
+      <HintPath>..\OneDrive - system-ds.co.jp\KAIHATSU\Common\lib\System-ds_CommonLibraryCS.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,6 +58,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
