@@ -26,6 +26,11 @@ namespace GitHub学習用
             double.TryParse(txtValue1.Text, out Value1);
             double.TryParse(txtValue2.Text, out Value2);
 
+            //=======================
+            //2020/01/30
+            //=======================
+
+
             try
             {
                 //選択した演算子により演算処理分岐
