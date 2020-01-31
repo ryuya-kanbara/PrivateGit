@@ -12,10 +12,7 @@ namespace GitTest
             InitializeComponent();
         }
 
-        //2020/01/30 Ryuya.Kambara
-        //システム終了ボタン処理を追加
-
-        /// <summary>
+　　　　 /// <summary>
         /// システム終了ボタン処理
         /// </summary>
         /// <param name="sender"></param>
