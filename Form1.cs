@@ -15,6 +15,7 @@ namespace GitTest
         //2020/01/30 Ryuya.Kambara
         //システム終了ボタン処理を追加
 
+
         /// <summary>
         /// システム終了ボタン処理
         /// </summary>
