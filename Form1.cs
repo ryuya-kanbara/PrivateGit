@@ -24,7 +24,8 @@ namespace GitTest
         private void btnEnd_Click(object sender, EventArgs e)
         {
             try
-            {            
+            {           
+               
                 //システム終了
                 Application.Exit();
             }
