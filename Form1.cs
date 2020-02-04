@@ -24,8 +24,14 @@ namespace GitTest
         private void btnEnd_Click(object sender, EventArgs e)
         {
             try
-            {           
-               
+            {        
+                //2020/02/04 Ryuya.Kambara
+                //システム終了確認メッセージ表示
+                if (MessageBox.Show("システムを終了します。よろしいですか?", this.Text, MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.No)
+                {
+                    return;
+                }
+            
                 //システム終了
                 Application.Exit();
             }
